@@ -1,0 +1,86 @@
+.ant-card {
+  border-radius: @border-radius-lg;
+  box-shadow: @box-shadow-base;
+  &.course {
+    overflow: hidden;
+    box-shadow: none;
+    .cover {
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .icon-box {
+      padding-top: @padding-xs;
+      padding-bottom: @padding-xs;
+      color: @gray-7;
+      & span:not(:last-child) {
+        margin-right: @margin-md;
+      }
+      .anticon {
+        margin-right: @margin-xs;
+      }
+    }
+    .ant-card-meta-title {
+      display: -webkit-box;
+      white-space: inherit;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+    h2 {
+      color: @primary-color;
+      margin-bottom: 0;
+      del {
+        font-size: 20px;
+        font-weight: 400;
+        color: @gray-7;
+        margin-left: @margin-md;
+      }
+    }
+    &.default {
+      border-radius: 0;
+      .ant-card-body {
+        padding: @padding-md 0;
+      }
+      img {
+        border-radius: @border-radius-md;
+      }
+    }
+    &.overlay {
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: @black;
+        opacity: 0.3;
+        z-index: 1;
+      }
+      & .ant-card-body {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        z-index: 1;
+      }
+      .ant-card-meta-title {
+        color: @white;
+      }
+    }
+  }
+  &.title-height{
+    &.default{
+      .ant-card-meta-title{
+        min-height: 56.56px;
+      }
+    }
+  }
+}

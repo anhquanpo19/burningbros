@@ -1,0 +1,32 @@
+{
+  "user": {
+    "fullname": "Họ và tên",
+    "username": "Tên đăng nhập",
+    "avatar": "Ảnh đại diện",
+    "phone": "SDT",
+    "password": "Mật khẩu",
+    "point": "Điểm",
+    "created_by": "Người tạo",
+    "status": "Trạng thái",
+    "row_number": "STT",
+    "created_at": "Ngày tạo",
+    "role": "Quyền",
+    "job_title": "Chức danh",
+    "department": "Bộ phận",
+    "progress_rate": "Tiến độ",
+    "final_test_score": "Kiểm tra",
+    "is_completed": "Trạng thái",
+    "statuses": {
+      "ACTIVE": "Hoạt động",
+      "INACTIVE": "Không hoạt động",
+      "true": "Đã HT",
+      "false": "Chưa HT"
+    },
+    "email": "Email",
+    "tabs": {
+      "enterpriseInfo": "Thông tin"
+    },
+    "create": "Thêm mới người dùng",
+    "update": "Chi tiết người dùng"
+  }
+}

@@ -1,0 +1,148 @@
+@import "ant-design-vue/lib/style/themes/default.less";
+
+@gray-1: #f5f7fa;
+@gray-2: #ebeff5;
+@gray-3: #dee3ed;
+@gray-4: #c8d0e0;
+@gray-5: #aeb9cb;
+@gray-6: #bfbfbf;
+@gray-7: #707a89;
+@gray-8: #59616e;
+@gray-9: #444b55;
+@gray-10: #343941;
+
+@primary-color: #2763ac;
+@success-color: #67ac5b;
+@warning-color: #eeaa46;
+@error-color: #c33f38;
+
+// Base Scaffolding Variables
+@text-color: @gray-9;
+@icon-color: @gray-5;
+
+@font-size-base: 16px;
+@font-size-sm: @font-size-base;
+@heading-1-size: ceil(@font-size-base * 2.35);
+@heading-2-size: ceil(@font-size-base * 2);
+@heading-3-size: ceil(@font-size-base * 1.71);
+@heading-4-size: ceil(@font-size-base * 1.5);
+@heading-5-size: ceil(@font-size-base * 1.2);
+@heading-color: @gray-9;
+
+@line-height-base: 1.5715;
+@border-radius-base: 8px;
+@border-radius-md: 12px;
+@border-radius-lg: 16px;
+@border-radius-sm: 2px;
+
+@font-weight-regular: 400;
+
+// Border color
+@border-color-base: @gray-3; // base border outline a component
+@border-color-split: @gray-3; // split border inside a component
+
+// height rules
+@height-base: 40px;
+@height-lg: 42px;
+@height-sm: 30px;
+
+// vertical paddings
+@padding-lg: 24px; // containers
+@padding-md: 16px; // small containers and buttons
+@padding-sm: 12px; // Form controls and items
+@padding-xs: 8px; // small items
+@padding-xss: 4px; // more small
+
+// vertical margins
+@margin-lg: 24px; // containers
+@margin-md: 16px; // small containers and buttons
+@margin-sm: 12px; // Form controls and items
+@margin-xs: 8px; // small items
+@margin-xss: 4px; // more small
+
+// Typography
+// ---
+@typography-title-font-weight: 500;
+@typography-title-margin-top: 1.2em;
+@typography-title-margin-bottom: 0.5em;
+
+// Select
+// ---
+@select-item-selected-font-weight: 500;
+
+// Table
+
+@table-bg: @component-background;
+@table-header-bg: @gray-3;
+@table-header-color: @heading-color;
+@table-header-sort-bg: @background-color-base;
+@table-body-sort-bg: #fafafa;
+@table-row-hover-bg: @background-color-light;
+@table-selected-row-color: inherit;
+@table-selected-row-bg: @primary-1;
+@table-body-selected-sort-bg: @table-selected-row-bg;
+@table-selected-row-hover-bg: darken(@table-selected-row-bg, 2%);
+@table-expanded-row-bg: #fbfbfb;
+@table-padding-vertical: 8px;
+@table-padding-horizontal: 8px;
+@table-padding-vertical-md: (@table-padding-vertical * 3 / 4);
+@table-padding-horizontal-md: (@table-padding-horizontal / 2);
+@table-padding-vertical-sm: (@table-padding-vertical / 2);
+@table-padding-horizontal-sm: (@table-padding-horizontal / 2);
+@table-border-color: @gray-3;
+@table-footer-bg: @background-color-light;
+@table-footer-color: @heading-color;
+@table-header-bg-sm: @table-header-bg;
+@table-font-size: @font-size-base;
+@table-font-size-md: @table-font-size;
+@table-font-size-sm: @table-font-size;
+@table-header-cell-split-color: rgba(0, 0, 0, 0.06);
+
+// Buttons
+
+@btn-font-weight: 400;
+@btn-border-radius-sm: @border-radius-base;
+@btn-padding-horizontal-base: @padding-lg;
+@disabled-color: @gray-7;
+@disabled-bg: @gray-1;
+@disabled-active-bg: tint(@black, 90%);
+@disabled-color-dark: fade(#fff, 35%);
+// Modal
+
+@modal-header-padding-vertical: @padding-md;
+@modal-header-padding-horizontal: @padding-md;
+@modal-body-padding: @padding-md;
+@modal-confirm-body-padding: @padding-md;
+@modal-footer-padding-vertical: @padding-md;
+@modal-footer-padding-horizontal: @padding-md;
+@modal-footer-border-width: 0;
+
+// Card
+
+@card-padding-base: 16px;
+
+// Pagination
+
+@pagination-item-size: @height-sm;
+
+//  Result
+// ---
+@result-title-font-size: 20px;
+@result-subtitle-font-size: @font-size-base;
+
+// Checkbox
+
+@checkbox-border-radius: @border-radius-sm;
+
+// PageHeader
+@page-header-padding: 0;
+@page-header-padding-vertical: 0;
+
+//Dropdown
+@dropdown-vertical-padding: 8px;
+
+// Shadow
+
+@shadow-color: rgba(0, 0, 0, 0.1);
+// @shadow-color-inverse: @component-background;
+@box-shadow-base:0px 0px 8px @shadow-color;
